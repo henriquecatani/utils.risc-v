@@ -88,7 +88,6 @@ readstr:
 
 	sb      zero, 0(t1)
 	mv		a0, t0
-	j		readstr_ret
 readstr_ret:
 	ld      s0, 0(sp)       
     addi    sp, sp, 16
